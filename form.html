@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CB Assessoria - Inicie seu Planejamento</title>
+    <link rel="stylesheet" href="style.css?v=2">
+</head>
+<body class="form-page">
+
+    <div class="form-container">
+        <div style="text-align: center; margin-bottom: 20px;">
+            <img src="Layer-1.png.webp" alt="CB Assessoria Logo" style="height: 50px;">
+        </div>
+        <h2 style="margin-bottom: 10px;" class="text-highlight">Fale com nossa equipe</h2>
+        <p style="margin-bottom: 30px;">Antes de falar com nossa equipe, responda algumas perguntas rápidas. Com essas informações, conseguimos entender seu momento atual e indicar o caminho mais seguro para estudar, morar e trabalhar legalmente na Espanha. O preenchimento leva menos de 1 minuto.</p>
+
+        <form id="qualify-form">
+            
+            <div class="form-group">
+                <label class="form-label" for="nome">Nome completo:</label>
+                <input type="text" id="nome" name="nome" class="form-control" required placeholder="Digite seu nome completo">
+            </div>
+
+            <div class="form-group">
+                <label class="form-label" for="whatsapp">WhatsApp:</label>
+                <input type="tel" id="whatsapp" name="whatsapp" class="form-control" required placeholder="+55 (00) 00000-0000">
+            </div>
+
+            <div class="form-group">
+                <label class="form-label" for="email">E-mail:</label>
+                <input type="email" id="email" name="email" class="form-control" required placeholder="seu@email.com">
+            </div>
+
+            <div class="form-group">
+                <label class="form-label">Qual é o seu objetivo?</label>
+                <div class="radio-group">
+                    <label class="radio-label">
+                        <input type="radio" name="objetivo" value="Trabalhar" class="radio-input" required>
+                        <div class="radio-custom"></div>
+                        <span>Trabalhar</span>
+                    </label>
+                    <label class="radio-label">
+                        <input type="radio" name="objetivo" value="Estudar" class="radio-input">
+                        <div class="radio-custom"></div>
+                        <span>Estudar</span>
+                    </label>
+                    <label class="radio-label">
+                        <input type="radio" name="objetivo" value="Levar a família" class="radio-input">
+                        <div class="radio-custom"></div>
+                        <span>Levar a família</span>
+                    </label>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label class="form-label">Onde você está agora?</label>
+                <div class="radio-group">
+                    <label class="radio-label">
+                        <input type="radio" name="localizacao" value="No Brasil, planejando a ida" class="radio-input" required>
+                        <div class="radio-custom"></div>
+                        <span>No Brasil, planejando a ida</span>
+                    </label>
+                    <label class="radio-label">
+                        <input type="radio" name="localizacao" value="Já estou na Espanha como turista há menos de 30 dias" class="radio-input">
+                        <div class="radio-custom"></div>
+                        <span>Já estou na Espanha como turista há menos de 30 dias</span>
+                    </label>
+                    <label class="radio-label">
+                        <input type="radio" name="localizacao" value="Já estou na Espanha como turista há mais de 30 dias" class="radio-input">
+                        <div class="radio-custom"></div>
+                        <span>Já estou na Espanha como turista há mais de 30 dias</span>
+                    </label>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label class="form-label">Já possui reserva financeira?</label>
+                <div class="radio-group">
+                    <label class="radio-label">
+                        <input type="radio" name="reserva" value="Sim" class="radio-input" required>
+                        <div class="radio-custom"></div>
+                        <span>Sim</span>
+                    </label>
+                    <label class="radio-label">
+                        <input type="radio" name="reserva" value="Estou organizando" class="radio-input">
+                        <div class="radio-custom"></div>
+                        <span>Estou organizando</span>
+                    </label>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label class="form-label">Qual seu nível de escolaridade?</label>
+                <div class="radio-group">
+                    <label class="radio-label">
+                        <input type="radio" name="escolaridade" value="Fundamental" class="radio-input" required>
+                        <div class="radio-custom"></div>
+                        <span>Fundamental</span>
+                    </label>
+                    <label class="radio-label">
+                        <input type="radio" name="escolaridade" value="Médio" class="radio-input">
+                        <div class="radio-custom"></div>
+                        <span>Médio</span>
+                    </label>
+                    <label class="radio-label">
+                        <input type="radio" name="escolaridade" value="Graduação" class="radio-input">
+                        <div class="radio-custom"></div>
+                        <span>Graduação</span>
+                    </label>
+                    <label class="radio-label">
+                        <input type="radio" name="escolaridade" value="Pós-graduação" class="radio-input">
+                        <div class="radio-custom"></div>
+                        <span>Pós-graduação</span>
+                    </label>
+                    <label class="radio-label">
+                        <input type="radio" name="escolaridade" value="Doutorado" class="radio-input">
+                        <div class="radio-custom"></div>
+                        <span>Doutorado</span>
+                    </label>
+                </div>
+            </div>
+
+            <button type="submit" class="btn btn-primary" style="width: 100%; margin-top: 20px;">
+                ENVIAR E FALAR COM A EQUIPE
+            </button>
+        </form>
+    </div>
+
+    <script src="form.js"></script>
+</body>
+</html>
