@@ -255,6 +255,36 @@ p {
   opacity: 0.9;
 }
 
+/* Hero Carousel */
+.hero-carousel {
+  width: 100%;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: var(--shadow-sm);
+  position: relative;
+  aspect-ratio: 3/4;
+}
+
+.hero-carousel-inner {
+  display: flex;
+  width: 300%;
+  height: 100%;
+  animation: heroSlide 15s infinite ease-in-out;
+}
+
+.hero-carousel-img {
+  width: 33.3333%;
+  height: 100%;
+  object-fit: cover;
+}
+
+@keyframes heroSlide {
+  0%, 25% { transform: translateX(0); }
+  33.33%, 58.33% { transform: translateX(-33.3333%); }
+  66.66%, 91.66% { transform: translateX(-66.6666%); }
+  100% { transform: translateX(0); }
+}
+
 /* Layout Utilities */
 .two-col {
   display: grid;
