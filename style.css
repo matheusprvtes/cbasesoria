@@ -768,8 +768,8 @@ p {
     padding: 45px 0 !important;
   }
   
-  /* Hide standard buttons in content */
-  .btn.btn-primary {
+  /* Hide standard CTA buttons in content (landing), but NEVER the form submit */
+  .btn.btn-primary:not([type="submit"]) {
     display: none !important;
   }
   
